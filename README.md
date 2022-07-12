@@ -1,11 +1,13 @@
-# Zensia Nodejs Translator - Completely Free
+# Zensia Nodejs Translator
 
 ## :guardsman: How do I install this library?
 
 ```npm install zensia```
+<br>
 or
+<br>
 ```yarn add zensia```
-
+<br>
 
 ## :star: How do I get started ?
 
@@ -21,7 +23,6 @@ or
 - [x] Translate bulk into over 90 languages
 - [x] Translate html into over 90 languages
 <br>
-powered by Zensia.io
 
 ## :bookmark_tabs: Examples
 ```js
