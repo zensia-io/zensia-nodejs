@@ -22,9 +22,8 @@ or
 - [x] Translate text into over 90 languages
 - [x] Translate bulk into over 90 languages
 - [x] Translate html into over 90 languages
-tldr; - powered by Zensia.io
-
 <br>
+tldr; - powered by Zensia.io
 
 ## :bookmark_tabs: Examples
 ```js
