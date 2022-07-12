@@ -23,7 +23,7 @@ class Zensia {
 
     async translateHtml(html, to, from = 'en') {
         try {
-            return (await axios.post('https://api.zensia.io/translate/html', { html, to, texts }, { headers: { 'x-zensia-api-key': this.apiKey } }).catch()).data?.data
+            return (await axios.post('https://api.zensia.io/translate/html', { html, to, from }, { headers: { 'x-zensia-api-key': this.apiKey } }).catch()).data?.data
         } catch (exc) {
             throw new Error("ZENSIA: Invalid API key")
         }
@@ -31,7 +31,7 @@ class Zensia {
 
     async translateHtmlBulk(htmls, to, from = 'en') {
         try {
-            return (await axios.post('https://api.zensia.io/translate/html', { htmls, to, texts }, { headers: { 'x-zensia-api-key': this.apiKey } }).catch()).data?.data
+            return (await axios.post('https://api.zensia.io/translate/html', { html: htmls, to, from }, { headers: { 'x-zensia-api-key': this.apiKey } }).catch()).data?.data
         } catch (exc) {
             throw new Error("ZENSIA: Invalid API key")
         }
