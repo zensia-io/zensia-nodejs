@@ -13,7 +13,6 @@ or
 
 1. Register account at https://app.zensia.io
 2. Generate API key under settings https://app.zensia.io/settings
-3. (optionally for enterprise): Buy premium
 
 <br>
 

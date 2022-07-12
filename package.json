@@ -1,5 +1,34 @@
 {
+  "name": "zensia-node",
+  "version": "1.0.1",
+  "description": "Official Zensia.io Translator SDK for Node.js",
+  "keywords": [
+    "translator",
+    "zensia",
+    "translate",
+    "free",
+    "fast",
+    "bulk translate",
+    "chinese",
+    "zensia.io",
+    "翻译"
+  ],
+  "engines": {
+    "node": ">=8.17.0",
+    "npm": ">=5.6.0"
+  },
+  "homepage": "https://github.com/zensia-io/zensia-nodejs",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zensia-io/zensia-nodejs.git"
+  },
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Zensia",
+  "license": "MIT",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "semver": "^7.3.7"
   }
 }
