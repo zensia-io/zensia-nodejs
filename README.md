@@ -46,14 +46,3 @@ tldr; - powered by Zensia.io
     // Translate Bulk ["Hello", "World"] into [Russian, Simplified Chinese]
     console.log(await zensia.translateBulk(['Hello', 'World'], ['ru', 'zh'])) // { Hello: { ru: 'Привет', zh: '你好' }, World: { ru: 'Мир', zh: '世界' } }
 ```
-
-
-## Resources
-https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-334.pdf <br>
-
-
-
-https://docs.microsoft.com/en-us/dotnet/api/system.reflection.emit.opcodes?view=netframework-4.8
-
-_If you got any questions feel free to contact me via discord Hexk#0001_
-
