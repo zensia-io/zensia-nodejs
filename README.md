@@ -1,6 +1,4 @@
-# 
-Developed by <a href="https://github.com/hexck">Hexk</a>
-<br><br>
+# Zensia Nodejs Translator - Completely Free
 
 ## :guardsman: How do I install this library?
 
@@ -23,7 +21,7 @@ or
 - [x] Translate bulk into over 90 languages
 - [x] Translate html into over 90 languages
 <br>
-tldr; - powered by Zensia.io
+powered by Zensia.io
 
 ## :bookmark_tabs: Examples
 ```js
