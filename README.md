@@ -27,7 +27,6 @@ tldr; - powered by Zensia.io
 <br>
 
 ## :bookmark_tabs: Examples
-#### Single:
 ```js
     const zensia = new Zensia('API_KEY');
 
