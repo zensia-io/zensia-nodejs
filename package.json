@@ -1,6 +1,6 @@
 {
-  "name": "zensia-node",
-  "version": "1.0.1",
+  "name": "zensia",
+  "version": "1.0.2",
   "description": "Official Zensia.io Translator SDK for Node.js",
   "keywords": [
     "translator",
@@ -23,12 +23,14 @@
     "url": "git://github.com/zensia-io/zensia-nodejs.git"
   },
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Zensia",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
+    "hash-sum": "^2.0.0",
+    "md5": "^2.3.0",
+    "node-cache": "^5.1.2",
     "semver": "^7.3.7"
   }
 }
